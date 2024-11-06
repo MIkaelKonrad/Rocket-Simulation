@@ -1,4 +1,4 @@
-
+''' This Script defines a class the holds the information on the engine. '''
 import fuel
 
 class Engine:

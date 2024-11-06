@@ -1,3 +1,7 @@
+''' This Script defines classes to hold information about the Propellent the rocket uses. 
+
+    Note:   We have separate classes for BiProp and MonoProp. '''
+
 import Chemicals
 class BiProp:
     def __init__(self,oxidizer,fuel,oxidizer_fuel_ratio):

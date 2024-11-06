@@ -1,3 +1,5 @@
+''' The class Stage_Comp is used to compare different base stages. '''
+
 import stage_sim
 import stages
 import matplotlib.pyplot as plt

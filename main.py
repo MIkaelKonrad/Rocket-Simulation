@@ -1,3 +1,5 @@
+''' This is the main script used to run the simulation. '''
+
 import fuel
 import craft 
 import Chemicals 
@@ -10,6 +12,8 @@ import matplotlib.pyplot as plt
 import numpy
 import stage_sim
 import stage_comp
+
+
 craft = craft.Falcon_9
 base_stage = stages.Falcon_9_Base
 range_of_stages = numpy.arange(1,11,1)

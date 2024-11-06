@@ -1,3 +1,6 @@
+''' This file contains a class, which gives a frame work for simulating different chemicals
+    These Chemicals will be mainly used as rocket propellants in the simulation'''
+
 class Chemical:
     def __init__(self,freezing,boiling,density):
         # freezing temperature in Kelvin

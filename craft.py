@@ -1,3 +1,8 @@
+''' This Scripts defines the frame work for the Craft in the simulation
+    The Craft consist of the expected Payload, the engine and some additional weight.
+    Moreover the the class Craft also contains some information about the stages, which can be attached to the craft.'''
+
+
 from engine import Merlin
 
 class Craft:

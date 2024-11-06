@@ -1,4 +1,9 @@
-
+''' This Script contains two classes, which are used to resemble stages in the simulation:
+        1.  BaseStage:  This class holds the information of what the requirements for a stage are,
+                        independent of the size of the propellent tanks.
+        2.  Stage:      This class holds the information on a finished stage including the propellent tanks
+             '''
+             
 from tanks import Tank
 from tanks import vol_cylinder
 import math

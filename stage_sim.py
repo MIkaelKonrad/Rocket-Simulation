@@ -1,3 +1,15 @@
+''' This Script simulates the efficiency of stage different configurations.
+
+    The function Stage_Sim.comp_stages() finds an efficient stage length given a certain number of stages
+
+    The function Stage_Sim.fuel_plot() returns a plot showing how much fuel each Stage configuration requires to
+    reach low earth orbit. 
+    
+    The function Stage_Sim.fuel_diff_polt() returns a plot of how much fuel can be saved by increasing 
+    the number of stages by 1.
+    '''
+
+
 import fuel
 import craft 
 import Chemicals 
